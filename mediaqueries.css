@@ -1,0 +1,71 @@
+@media (max-width:1400px){
+    #profile{
+        height:83vh;
+        margin-bottom:6rem;
+    }
+    .about-container{
+        flex-wrap:wrap;
+    }
+    about{
+        display: flex;
+    }
+}
+@media (max-width:1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display:flex;
+        margin-right:3.5em;
+    }
+    #experience,.experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile,.section-container{
+       display: block; 
+    }
+    .arrow{
+        display:none;
+    }
+    section,.section-container{
+        height:fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section_pic-container{
+        width:200px;
+        height:200px;
+        margin:0 auto 2rem;
+        display: flex;
+    }
+    .section-pic-container img{
+      max-height:50%;
+      max-width:50%;
+      height:auto;
+      width:auto;
+      }
+      .section_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the flex items horizontally */
+        justify-content: center; /* Centers the flex items vertically */
+        text-align: center; /* Centers the text content within each flex item */
+        margin: 0 auto; /* Centers the .section_text container within its parent */
+         margin-right:1.5em;
+      }
+     .section_text h1{
+     font-size: 1.8em;
+    }
+    .section-text-p2{
+        font-size:1.5em;
+    }
+    .about-container{
+        margin-top: 0;
+    }
+    .btn-conatiner{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
